@@ -2,7 +2,7 @@
 -> create an array class
 -> read-in 5 integers from keyboard
 -> print out each value multiplied by 2
--> don't store the doubled balue in the array-just print the doubled values
+-> don't store the doubled value in the array-just print the doubled values
 ->
 */
 
@@ -30,7 +30,7 @@ int main()
 	
 	for (int element : myIntArray)
 	{
-		cout << element * 2 << endl;
+		cout << "These are your entries doubled: " << element * 2 << endl;
 	}
 	
 	return 0;
